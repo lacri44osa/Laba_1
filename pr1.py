@@ -38,16 +38,16 @@ class Komp:
         self._storage = storage
 
 komp = Komp("Intel Core i7", "16 GB", "NVIDIA GeForce RTX 3070", "512 GB SSD")
-print(komp.processor) # "Intel Core i7"
-print(komp.ram) # "16 GB"
-print(komp.video_card) # "NVIDIA GeForce RTX 3070"
-print(komp.storage) # "512 GB SSD"
+print(komp.processor)
+print(komp.ram) 
+print(komp.video_card) 
+print(komp.storage) 
 
 komp.processor = "AMD Ryzen 9"
 komp.ram = "32 GB"
 komp.video_card = "AMD Radeon RX 6700 XT"
 komp.storage = "1 TB NVMe SSD"
-print(komp.processor) # "AMD Ryzen 9"
-print(komp.ram) # "32 GB"
-print(komp.video_card) # "AMD Radeon RX 6700 XT"
-print(komp.storage) # "1 TB NVMe SSD"
+print(komp.processor) 
+print(komp.ram)
+print(komp.video_card) 
+print(komp.storage)
